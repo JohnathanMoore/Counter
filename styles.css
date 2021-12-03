@@ -1,0 +1,70 @@
+:root {
+    font-size: 36px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 400ms;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+}
+.output {
+    animation: fadeIn 2s;
+    font-size: 3rem;
+    color: #999999
+}
+.increment {
+    animation: fadeIn 3s;
+    margin: 20px 0;
+}
+button {
+    height: 4rem;
+    width: 6rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 3rem;
+}
+.clear {
+    animation: fadeIn 5s;
+    font-size: 2rem;
+}
+.add {
+    color: green;
+}
+.add:hover {
+    text-shadow: 0 0 32px yellowgreen;
+    color: yellowgreen;
+}
+.sub {
+    color: red;
+}
+.sub:hover {
+    text-shadow: 0 0 32px tomato;
+    color: tomato;
+}
+.clear:hover {
+    color: white;
+    opacity: .1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
