@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #191919;
+    overflow: hidden;
 }
 .output {
     animation: fadeIn 2s;
